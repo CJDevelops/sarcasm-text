@@ -34,7 +34,7 @@ function App() {
 			<header className="App-header">
 				<h1>Sarcasm Case Converter</h1>
 				<div>
-					<input type="text" value={input} onChange={handleInputChange} placeholder="Type here..." />
+					<input type="text" onChange={handleInputChange} placeholder="Type here..." />
 				</div>
 				<div>
 					<span class="label">Start Upper</span>
