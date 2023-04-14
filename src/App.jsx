@@ -37,7 +37,7 @@ function App() {
 					<input type="text" value={input} onChange={handleInputChange} placeholder="Type here..." />
 				</div>
 				<div>
-					<span>Start Upper</span>
+					<span class="label">Start Upper</span>
 					<input type="checkbox" checked={startUppercase} onChange={handleCheckboxChange} style={{ marginLeft: "1rem" }} />
 				</div>
 				<p>{input}</p>
